@@ -18,8 +18,8 @@ public class DeleteIconTest extends TestBase {
 		pageBase.openPage("https://alphaspel.se/");
 		pageBase.acceptCookies();
 		deleteIconPage.testingDeleteIcon();
-		assertThat(deleteIconPage.deleteButton).isEnabled();
-
+		assertThat(deleteIconPage.deleteButton).isHidden();
+		
 	}
 
 }
